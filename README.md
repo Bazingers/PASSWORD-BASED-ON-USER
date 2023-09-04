@@ -1,3 +1,4 @@
 # PASSWORDBASEDONUSER
 ama anything abt it on discord, try to respond as quickly as possible my discord: bazingers
 y = yes n = no, the ones that says y/n only respond with yes or no but in y/n form
+its written it python (.py) so run in into something that can run .py, it can be repl.it if u dont have any programs that can run python lolol
