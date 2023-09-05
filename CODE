@@ -1,3 +1,4 @@
+RUN THE CODE BELOW AS PYTHON BTW READ ''READ ME IF ANYTHING'' ⬇⬇
 print('do whatever it asks ¯\_(ツ)_/¯')
 realname = input('Please enter the main part of username eg can be like jacob in jacob200: ')
 cooladjective = input('Does it have any adjective like eg cool in coolninja123? y/n:')
