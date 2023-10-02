@@ -1,28 +1,39 @@
-RUN THE CODE BELOW AS PYTHON BTW READ ''READ ME IF ANYTHING'' ⬇⬇
-print('do whatever it asks ¯\_(ツ)_/¯')
-realname = input('Please enter the main part of username eg can be like jacob in jacob200: ')
-cooladjective = input('Does it have any adjective like eg cool in coolninja123? y/n:')
-if cooladjective == 'y':
- ADJECTIVE90 = input('say the adjectve:')
-answer1 = input('do you want four digit method? y/n:')
-if answer1 == 'y':
- FOURDIGITCODE1 = input('Please enter the two of the four digit method: ')
-answer2 = input('answer yes if you did it last time y/n:')
-if answer2 == 'y':
- FOURDIGITCODE2 = input('Please enter the other two of the four digit method: ')
- if answer1 and answer2 and cooladjective == 'y':
-  print('Your possible password:')
-  print('possible passwords:', realname + '123' ,'123' + realname , '123' + realname + FOURDIGITCODE1, realname + FOURDIGITCODE2, '123' + realname + FOURDIGITCODE2, realname + FOURDIGITCODE1, realname + 'is' + ADJECTIVE90 + '123', '123' + realname + 'is' + ADJECTIVE90, FOURDIGITCODE1 + realname + 'is' + ADJECTIVE90, FOURDIGITCODE2 + realname + 'is' + ADJECTIVE90, FOURDIGITCODE1 + realname + 'is' + ADJECTIVE90 + '123', FOURDIGITCODE2 + realname + 'is' + ADJECTIVE90 + '123', '123' + realname + 'is' + ADJECTIVE90 + '.')
-  print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
-if answer1 and answer2 and cooladjective == 'n':
- print('Your possible passwords:')
- print('possible passwords:', realname + '123', '123' + realname)
- print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
-if answer1 and answer2 == 'n' and cooladjective == 'y':
- print('your possible passwords')
- print('123' + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90, realname + '123', '123' + realname, realname + 'is' + ADJECTIVE90 + '123')
-if cooladjective == 'n' and answer1 and answer2 == 'y':
-  print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
-  print('your possible passwords')
-  print('123' + realname + FOURDIGITCODE1, '123' + realname + FOURDIGITCODE2, realname + '123' + FOURDIGITCODE1, realname + '123' + FOURDIGITCODE2, realname + FOURDIGITCODE1, realname + FOURDIGITCODE2 +  '.')
-  print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
+def main():
+  print('READ ALL THE PRINTS CAREFULLY')
+  realname = input('Please enter the main part of username eg can be like jacob in jacob200: ')
+  cooladjective = input('Does it have any adjective like eg cool in coolninja123? y/n:')
+  if cooladjective == 'y':
+   ADJECTIVE90 = input('say the adjective:')
+  answer1 = input('do you want four digit method? y/n:')
+  if answer1 == 'y':
+    FOURDIGITCODE1 = input('Please enter the two of the four digit method: ')
+  if answer1 == 'y':
+   FOURDIGITCODE2 = input('Please enter the other two of the four digit method: ')
+  if answer1 == 'y' and cooladjective == 'y':
+    print('Your possible password:')
+    print('123' + realname, realname + '123', realname + FOURDIGITCODE1, realname + FOURDIGITCODE2, realname + 'is' + ADJECTIVE90, '123' + realname + FOURDIGITCODE1, '123' + realname + FOURDIGITCODE2, realname + FOURDIGITCODE1 + '123', realname + FOURDIGITCODE2 + '123', realname + 'is' + ADJECTIVE90 + FOURDIGITCODE1, realname + 'is' + ADJECTIVE90 + FOURDIGITCODE2, FOURDIGITCODE1 + realname + 'is' + ADJECTIVE90, FOURDIGITCODE2 + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90 + '123', '123' + realname + 'is' + ADJECTIVE90)
+    print('inspired by /common from kyanite made by bazingers on discord :m0ai:')#line above me is the MAJOR bug of y for adjective and n for 4 digit method
+  if answer1 and cooladjective == 'n':
+   print('Your possible passwords:')
+   print('possible passwords:', realname + '123', '123' + realname)
+   print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
+  if answer1 == 'n' and cooladjective == 'y':
+   print('your possible passwords')
+   print('123' + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90, realname + '123', '123' + realname, realname + 'is' + ADJECTIVE90 + '123')
+  if cooladjective == 'n' and answer1 == 'y':
+    print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
+    print('your possible passwords')
+    print('123' + realname + FOURDIGITCODE1, '123' + realname + FOURDIGITCODE2, realname + '123' + FOURDIGITCODE1, realname + '123' + FOURDIGITCODE2, realname + FOURDIGITCODE1, realname + FOURDIGITCODE2 +  '.')
+    print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
+  print('this will be discontinued but like there is one lil bug its open source in repl if u wanna fix it, my repl: Bazingers and BazingersAlt :D')
+  print('Copy and paste the passwords if you cant see them')
+  reset = input('Do you want to restart? y/n:')
+  print(''
+
+                                          '')
+  if reset == 'y':
+    main()
+  if reset == 'n':
+    input('press enter to close :D')
+main()
+#currently one bug when you say, yes for 4 digit method and no for adjectives
