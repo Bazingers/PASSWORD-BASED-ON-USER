@@ -11,7 +11,7 @@ def main():
    FOURDIGITCODE2 = input('Please enter the other two of the four digit method: ')
   if answer1 == 'y' and cooladjective == 'y':
     print('Your possible password:')
-    print('123' + realname, realname + '123', realname + FOURDIGITCODE1, realname + FOURDIGITCODE2, realname + 'is' + ADJECTIVE90, '123' + realname + FOURDIGITCODE1, '123' + realname + FOURDIGITCODE2, realname + FOURDIGITCODE1 + '123', realname + FOURDIGITCODE2 + '123', realname + 'is' + ADJECTIVE90 + FOURDIGITCODE1, realname + 'is' + ADJECTIVE90 + FOURDIGITCODE2, FOURDIGITCODE1 + realname + 'is' + ADJECTIVE90, FOURDIGITCODE2 + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90 + '123', '123' + realname + 'is' + ADJECTIVE90)
+    print('123' + realname, realname + '123', realname + FOURDIGITCODE1, realname + FOURDIGITCODE2, realname + 'is' + ADJECTIVE90, '123' + realname + FOURDIGITCODE1, '123' + realname + FOURDIGITCODE2, realname + FOURDIGITCODE1 + '123', realname + FOURDIGITCODE2 + '123', realname + 'is' + ADJECTIVE90 + FOURDIGITCODE1, realname + 'is' + ADJECTIVE90 + FOURDIGITCODE2, FOURDIGITCODE1 + realname + 'is' + ADJECTIVE90, FOURDIGITCODE2 + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90 + '123', '123' + realname + 'is' + ADJECTIVE90, '123iam' + ADJECTIVE90, 'iam' + ADJECTIVE90 + '123', FOURDIGITCODE1 + 'iam' + ADJECTIVE90 + '123', FOURDIGITCODE2 + 'iam' + ADJECTIVE90 + '123', '123' + 'iam' + ADJECTIVE90 + FOURDIGITCODE1, '123' + 'iam' + ADJECTIVE90 + FOURDIGITCODE2, 'iam' + ADJECTIVE90 + FOURDIGITCODE1, 'iam' + ADJECTIVE90 + FOURDIGITCODE2, FOURDIGITCODE1 + 'iam' + ADJECTIVE90, FOURDIGITCODE2 + 'iam' + ADJECTIVE90)
     print('inspired by /common from kyanite made by bazingers on discord :m0ai:')#line above me is the MAJOR bug of y for adjective and n for 4 digit method
   if answer1 and cooladjective == 'n':
    print('Your possible passwords:')
@@ -19,7 +19,7 @@ def main():
    print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
   if answer1 == 'n' and cooladjective == 'y':
    print('your possible passwords')
-   print('123' + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90, realname + '123', '123' + realname, realname + 'is' + ADJECTIVE90 + '123')
+   print('123' + realname + 'is' + ADJECTIVE90, realname + 'is' + ADJECTIVE90, realname + '123', '123' + realname, realname + 'is' + ADJECTIVE90 + '123', '123iam' + ADJECTIVE90, 'iam' + ADJECTIVE90 + '123')
   if cooladjective == 'n' and answer1 == 'y':
     print('inspired by /common from kyanite made by bazingers on discord :m0ai:')
     print('your possible passwords')
@@ -36,4 +36,4 @@ def main():
   if reset == 'n':
     input('press enter to close :D')
 main()
-#currently one bug when you say, yes for 4 digit method and no for adjectives
+#currently 1 lil bug
